@@ -1,0 +1,29 @@
+# Binaries
+/tabletui
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Test and coverage output
+*.test
+*.out
+coverage.*
+*.coverprofile
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment
+.env
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
